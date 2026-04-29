@@ -33,7 +33,7 @@ class App extends Component {
             if(e.key==="ArrowRight"){
                 this.setState(prev=>(
                     {posi:prev.posi+5,
-                        ballPosition:{left:prev.posi+5+"px"}
+                        ballPosition:{left:prev.posi+"0px"}
                     }
                 ))
             }
